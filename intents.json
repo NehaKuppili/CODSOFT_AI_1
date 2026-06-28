@@ -1,0 +1,196 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hii",
+        "heyy",
+        "hello buddy",
+        "hey buddy",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how are you",
+        "whats up",
+        "how's it going",
+        "nice to meet you"
+      ],
+      "responses": [
+        "Hello! 👋 How can I help you today?",
+        "Hi there! 😊",
+        "Hey! Nice to see you.",
+        "Greetings! What can I do for you?"
+      ]
+    },
+
+    {
+      "tag": "ai",
+      "patterns": [
+        "what is ai",
+        "define ai",
+        "artificial intelligence",
+        "tell me about ai",
+        "can you explain ai",
+        "explain ai",
+        "what does ai mean",
+        "ai"
+      ],
+      "responses": [
+        "Artificial Intelligence (AI) is the simulation of human intelligence in machines that can learn, reason and solve problems."
+      ]
+    },
+
+    {
+      "tag": "ml",
+      "patterns": [
+        "what is machine learning",
+        "machine learning",
+        "ml",
+        "define machine learning",
+        "tell me about machine learning",
+        "explain ml"
+      ],
+      "responses": [
+        "Machine Learning is a branch of AI where computers learn from data without being explicitly programmed."
+      ]
+    },
+
+    {
+      "tag": "nlp",
+      "patterns": [
+        "what is nlp",
+        "nlp",
+        "natural language processing",
+        "tell me about nlp",
+        "define nlp",
+        "explain nlp"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) enables computers to understand and process human language."
+      ]
+    },
+
+    {
+      "tag": "python",
+      "patterns": [
+        "python",
+        "what is python",
+        "python language",
+        "tell me about python",
+        "define python",
+        "explain python"
+      ],
+      "responses": [
+        "Python is a simple and powerful programming language widely used in AI, web development, automation and data science."
+      ]
+    },
+
+    {
+      "tag": "study",
+      "patterns": [
+        "study tips",
+        "study tip",
+        "how to study",
+        "study advice",
+        "exam tips",
+        "learning tips"
+      ],
+      "responses": [
+        "Study for 50 minutes, take a 10-minute break, revise regularly and practice actively instead of just reading."
+      ]
+    },
+
+    {
+      "tag": "fact",
+      "patterns": [
+        "ai fact",
+        "fact",
+        "interesting fact",
+        "fun fact",
+        "tell me a fact"
+      ],
+      "responses": [
+        "Did you know? The term 'Artificial Intelligence' was coined in 1956.",
+        "Fun Fact: Python is one of the most popular languages used for AI."
+      ]
+    },
+
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "joke",
+        "make me laugh",
+        "funny",
+        "say something funny"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs! 😂",
+        "Debugging is like being the detective and the criminal at the same time. 😄"
+      ]
+    },
+
+    {
+      "tag": "time",
+      "patterns": [
+        "time",
+        "current time",
+        "what time is it",
+        "tell me the time"
+      ],
+      "responses": [
+        "TIME"
+      ]
+    },
+
+    {
+      "tag": "date",
+      "patterns": [
+        "date",
+        "today date",
+        "today's date",
+        "current date",
+        "what is today's date"
+      ],
+      "responses": [
+        "DATE"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks buddy",
+        "thank you so much",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "bye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day! 👋",
+        "See you soon! 😊"
+      ]
+    }
+
+  ]
+}
